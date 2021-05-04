@@ -1,3 +1,8 @@
-h1{
-    color: aqua;
+.heading{
+    color: royalblue;
+    text-align: center;
+    text-shadow: saddlebrown;
+    font-weight: 100px;
+    opacity: 20px;
+    text-decoration-color: salmon;
 }
