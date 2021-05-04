@@ -2,37 +2,40 @@ var sheds = [
     {
         title: "shade A",
         meanProduction: 510,
+        
     },
     {
         title: "shade B",
         meanProduction: 308,
+       
     },
     {
         title: "shade C",
-        meanProduction: 486,   
+        meanProduction: 486,
     },
     {
         title: "shade D",
-        meanProduction: 572, 
+        meanProduction: 572,
+      
     },
 ];
-    var allProduction = function (s) {
+    var allProduction = function (prdn) {
         let sum = 0;
-        for (let i = 0; i < s.length; i++){
-            sum += s[i].meanProduction;
-            if (i == s.length -1) {
+        for (let i = 0; i < prdn.length; i++){
+            sum += prdn[i].meanProduction;
+            if (i == prdn.length -1) {
                 return sum;
             }
         }
     };
-    var totalProduction = function (obj) {
-        for (let i = 0; i <obj.length; i++){
+    var totalProduction = function (ttl) {
+        for (let i = 0; i <ttl.length; i++){
             console.log(
-                "your production in " + obj[i].name + " " + obj[i].meanProduction + "litres per day"
+                "your production in " + ttl[i].name + " " + ttl[i].meanProduction + "litres per day"
             );
         }
         console.log(
-            "The total production is " + allProduction(obj) + " litres per day"
+            "The total production is " + allProduction(ttl) + " litres per day"
         );
     };
     totalProduction(sheds);
@@ -67,8 +70,8 @@ var sheds = [
     incomeOverTime(sellingPricePerLitre, "yearly");
     function incomPerMonth(selling_price) {
         let monthProduction;
-        for (let [key,values] of Object.entries(months)) {
-            monthProduction = values * allProduction(sheds) * selling_price; 
+        for (let [keys,values] of Object.entries(months)) {
+            monthlyProduction = values * allProduction(sheds) * selling_price; 
             console.log("Your income for " + keys + " is" + monthlyProduction);
         } 
     }
