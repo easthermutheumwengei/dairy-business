@@ -68,6 +68,6 @@ var sheds = [
     function incomPerMonth(selling_price) {
         let monthProduction;
         for (let [key,values] of Object.entries(months)) {
-            monthProduction = values * allProduction(sheds)
-        }
+            monthProduction = values * allProduction(sheds) * selling_price; 
+        } 
     }
