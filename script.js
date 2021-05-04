@@ -61,13 +61,13 @@ var sheds = [
                 sum = values * allProduction(sheds) * selling_price;
             }
             console.log("your yearly income will be ksh " + sum);
-    //     }
-    // }
-    // incomeOverTime(sellingPricePerLitre, "weekly");
-    // incomeOverTime(sellingPricePerLitre, "yearly");
-    // function incomPerMonth(selling_price) {
-    //     let monthProduction;
-    //     for (let [key,values] of Object.entries(months)) {
-    //         monthProduction = values * allProduction(sheds)
+        }
+    }
+    incomeOverTime(sellingPricePerLitre, "weekly");
+    incomeOverTime(sellingPricePerLitre, "yearly");
+    function incomPerMonth(selling_price) {
+        let monthProduction;
+        for (let [key,values] of Object.entries(months)) {
+            monthProduction = values * allProduction(sheds)
         }
     }
