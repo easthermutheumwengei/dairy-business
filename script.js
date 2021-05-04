@@ -25,4 +25,24 @@ var sheds = [
             }
         }
     };
-    var totalProduction = fuction
+    var totalProduction = function (obj) {
+        for (let i = 0; i <obj.length; i++){
+            console.log(
+                "your production in " + obj[i].name + " " + obj[i].meanProduction + "litres per day"
+            );
+        }
+        console.log(
+            "The total production is " + allProduction(obj) + " litres per day"
+        );
+    };
+    totalProduction(sheds);
+    var months = {
+        january: 31,
+        february: 29,
+        march: 31,
+        April: 30,
+        May: 31,
+        June: 30,
+        July: 31,
+        August: 31,
+    }
