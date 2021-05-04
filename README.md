@@ -16,7 +16,7 @@ You can install it with the following command in your terminal
 ### Setup
 To access this project on your local files, you can clone it using these steps
 Open your terminal
-Use this command to clone `https://github.com/easthermutheumwengei/dairy-business`
+Use this command to clone `https://easthermutheumwengei.github.io/dairy-business/`
 This will clone the repositoty into your local folder
 __Enjoy :)__
 
@@ -32,7 +32,7 @@ View [live]()
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-1. Use this command to clone `$ git clone https://easthermutheumwengei.github.io/-Favorite-Band//
+1. Use this command to clone `$ git clone https://easthermutheumwengei.github.io/dairy-business///
 1. This will clone the repositoty into your local folder
 1. __Enjoy :)__
 
@@ -40,6 +40,6 @@ To access this project on your local files, you can clone it using these steps
 
 
 ### Live Site
-View [live](https://easthermutheumwengei.github.io/-Favorite-Band///)
+View [live](https://easthermutheumwengei.github.io/dairy-business/)
 ### Licence
 This project is under the  [MIT](LICENSE) licence
