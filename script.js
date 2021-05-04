@@ -69,5 +69,7 @@ var sheds = [
         let monthProduction;
         for (let [key,values] of Object.entries(months)) {
             monthProduction = values * allProduction(sheds) * selling_price; 
+            console.log("Your income for " + keys + " is" + monthlyProduction);
         } 
     }
+    incomPerMonth(sellingPricePerLitre);
